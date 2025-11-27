@@ -12,15 +12,15 @@ This project was designed for use with the [DE1-SOC FPGA development board](http
 ## Photos of the program
 Shown below is the screen that displays when a valid card number is entered. The bank name, card type, card level, and card brand are displayed. Note that the card number displayed is purely for demonstration purposes, and is not a valid card number.
 
-![photo](readme_photos\bg_valid.jpg)
+![photo](https://github.com/HynixCJR/ece241_project/blob/main/readme_photos/bg_valid.jpg)
 
 Shown below is the screen that displays when no card number has been entered yet.
 
-![photo](readme_photos\bg_no_numbers.jpg)
+![photo](https://github.com/HynixCJR/ece241_project/blob/main/readme_photos/bg_no_numbers.jpg)
 
 Shown below is a photo of the program running on a DE1-SOC FPGA board with VGA output. Note that the card number displayed is purely for demonstration purposes, and is not a valid card number.
 
-![photo](readme_photos\demo.jpeg)
+![photo](https://github.com/HynixCJR/ece241_project/blob/main/readme_photos/demo.jpeg)
 
 ---
 ## Supported cards
@@ -39,4 +39,5 @@ The payment card identification supports debit and credit cards from 59 differen
 
 ---
 ## Compiling and running
+
 This program was only tested on the [DE1-SOC FPGA development board](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836), connected to a VGA monitor and PS/2 keyboard. To compile it, you must import the correct DE1-SOC pin assignments. The top module is called [main](main.v).
